@@ -1,0 +1,12 @@
+! Title: HTTP Insecure File Extensions - Windows for Adguard 
+! License: MIT License (https://choosealicense.com/licenses/mit/)
+! Homepage: https://github.com/InnoScorpio/Special-Hosts
+! Issues: https://github.com/InnoScorpio/Special-Hosts
+! Expires: 8 hours
+! Version: 1 (Last Date Indicated as Version - 06.18.2020)
+! Last Modified: June 20, 2020, 04:42 UTC
+! Description: Not comprehensive or exhaustive. Windows File Extensions. Block dangerous content that can be manipulated through HTTP connections and potentially harmful to devices. Intended for Adguard.
+! Use them at your own risk.
+! ============================================================================
+! This list does not block Javascript (.js) files. Windows File extensions: vb, vbs, vbe, jse, ws, wsc, wsf, wsh, scr, pif, reg, jar, bat, ps1, ps2, exe, msi, dll 
+/^http://.+(/.+)?/.+\.(?:(?:[vV][bB]([sS]|[eE]))|(?:[jJ][sS][eE])|(?:[wW][sS]([fF]|[hH]|[cC])?)|(?:[sS][cC][rR])|(?:[pP][iI][fF])|(?:[rR][eE][gG])|(?:[jJ][aA][rR])|(?:[bB][aA][tT])|(?:[pP][sS][1])|(?:[pP][sS][2])|(?:[eE][xX][eE])(?:[mM][sS][iI])|(?:[dD][lL][lL]))([/#?].*)?$/$empty

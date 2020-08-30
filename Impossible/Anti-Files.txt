@@ -1,0 +1,18 @@
+[uBlock Origin]
+! Title: Anti-Files List
+! License: MIT License (https://choosealicense.com/licenses/mit/)
+! Homepage: https://github.com/InnoScorpio/Special-Hosts
+! Issues: https://github.com/InnoScorpio/Special-Hosts
+! Expires: 8 hours
+! Version: 1 
+! Last Modified: 
+! Description: Block all files excluding those whitelisted.
+! Use them at your own risk.
+! ====================================================================================================================
+!#if ext_ublock
+/^https?://.+(/.+)?/.+\.([a-zA-Z0-9-_]+)([/#?].*)?$/$all,important
+!#endif
+
+!if adguard
+/^https?://.+(/.+)?/.+\.([a-zA-Z0-9-_]+)([/#?].*)?$/$empty,important
+!#endif

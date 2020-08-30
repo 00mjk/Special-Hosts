@@ -1,0 +1,10 @@
+# Dandelion Sprout's Game Console Domains List (Domains Version)
+# Adblock version: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
+nsx-e.np.dl.playstation.net
+mercury.dl.playstation.net
+nsx.np.dl.playstation.net
+adproxy.ndmdhs.com
+npdl.cdn.nintendowifi.net
+discovery.olv.nintendo.net
+arc.msn.com
+rad.msn.com

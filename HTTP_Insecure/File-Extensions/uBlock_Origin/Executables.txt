@@ -1,0 +1,14 @@
+﻿[uBlock Origin]
+! Title: HTTP Insecure File Extensions - Executables for uBlock Origin 
+! License: MIT License (https://choosealicense.com/licenses/mit/)
+! Homepage: https://github.com/InnoScorpio/Special-Hosts
+! Issues: https://github.com/InnoScorpio/Special-Hosts
+! Expires: 8 hours
+! Version: 1 (Last Date Indicated as Version - 06.18.2020)
+! Last Modified: June 21, 2020, 00:30 UTC
+! Description: Not comprehensive or exhaustive. Executable File Extensions. Block dangerous content that can be manipulated through HTTP connections and potentially harmful to devices. Intended for uBlock Origin.
+! Use them at your own risk.
+! ============================================================================
+! Due to uBlock Origin limitations, the rules below can only block URLs with the specific file extension only containing HTML content.
+! Executable File extensions: exe, apk, apks, app, appx, appxbundle, elf, bin, com, bat, gadget, msi, msix, msixbundle, pif, msp, mst, msc, scr, hta, cpl, jar 
+/^http://.+(/.+)?/.+\.(?:(?:[eE][xX][eE])|(?:[pP][iI][fF])|(?:[aA][pP][kK][sS]?)|(?:([aA][pP][pP]|[mM][sS][iI])[xX]?([bB][uU][nN][dD][lL][eE])?)|(?:[bB][iI][nN])|(?:[cC][oO][mM])|(?:[bB][aA][tT])|(?:[gG][aA][dD][gG][eE][tT])|(?:[mM][sS]([tT]|[pP]|[cC]))|(?:[sS][cC][rR])|(?:[hH][tT][aA])|(?:[jJ][aA][rR])|(?:[cC][pP][lL]))([/#?].*)?$/$all

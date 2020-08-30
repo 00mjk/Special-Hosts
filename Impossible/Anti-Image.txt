@@ -1,0 +1,13 @@
+! Title: Anti-Image List
+! License: MIT License (https://choosealicense.com/licenses/mit/)
+! Homepage: https://github.com/InnoScorpio/Special-Hosts
+! Issues: https://github.com/InnoScorpio/Special-Hosts
+! Expires: 8 hours
+! Version: 2 
+! Last Modified: 
+! Description: Block all images excluding those whitelisted. 
+! Use them at your own risk.
+! ====================================================================================================================
+*$image,important
+@@||/https://.+\.jpg|favicon.ico|.gif|.jpeg|.png|.bmp|.svg|.djvu|.djv|.webp|.tiff|.tif|.svg/$image
+@@||/http://.+\.jpg|.png|.jpeg|.svg/$image

@@ -1,0 +1,14 @@
+! Title: HTTP Insecure File Extensions - Generic for Adguard 
+! License: MIT License (https://choosealicense.com/licenses/mit/)
+! Homepage: https://github.com/InnoScorpio/Special-Hosts
+! Issues: https://github.com/InnoScorpio/Special-Hosts
+! Expires: 8 hours
+! Version: 3 
+! Last Modified: July 11, 2020, 17:25 UTC
+! Description: Not comprehensive or exhaustive. Generic File Extensions. Block dangerous content that can be manipulated through HTTP connections and potentially harmful to devices. Intended for Adguard.
+! Use them at your own risk.
+! ============================================================================
+! Common generic file extensions: cnf, conf, cfg, log, asc, txt, bak, bk, dat, dsk, raw, ini, json, yaml, htm, html, csv, tsv
+/^http://.+(/.+)?/.+\.(?:(?:[cC][oO]?[nN][fF])|(?:[cC][fF][gG])|(?:[lL][oO][gG])|(?:[aA][sS][cC])|(?:[tT][xX][tT])|(?:[bB][aA]?[kK])|(?:[iI][nN][iI])|(?:[jJ][sS][oO][nN])|(?:[hH][tT][mM][lL]?)|(?:[yY][aA][mM][lL])|(?:[dD][aA][tT])|(?:[dD][sS][kK])|(?:[rR][aA][wW])|(?:([cC]|[tT])[sS][vV]))([/#?].*)?$/$empty
+! Other  miscellousness extensions: asp, aspx, php, jsp, xhtml, ihtml, mhtml xml, sav, sql, sqlite, sqlite3, rtf, rom
+/^http://.+(/.+){0,}/.+\.(?:(?:[aA][sS][pP][xX]?)|(?:[pP][hH][pP])|(?:[jJ][sS][pP])|(?:([iI]|[xX]|[mM])[hH][tT][mM][lL])|(?:[xX][mM][lL])|(?:[sS][aA][vV])|(?:[sS][qQ][lL]([iI][tT][eE])?([3])?)|(?:[rR][tT][fF])|(?:[rR][oO][mM]))([/#?].*)?$/$empty

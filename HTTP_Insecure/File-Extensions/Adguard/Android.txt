@@ -1,0 +1,12 @@
+! Title: HTTP Insecure File Extensions - Android for Adguard 
+! License: MIT License (https://choosealicense.com/licenses/mit/)
+! Homepage: https://github.com/InnoScorpio/Special-Hosts
+! Issues: https://github.com/InnoScorpio/Special-Hosts
+! Expires: 8 hours
+! Version: 1 (Last Date Indicated as Version - 06.18.2020)
+! Last Modified: June 20, 2020, 04:42 UTC
+! Description: Not comprehensive or exhaustive. Android File Extensions. Block dangerous content that can be manipulated through HTTP connections and potentially harmful to devices. Intended for Adguard.
+! Use them at your own risk.
+! ============================================================================
+! Android File extensions: elf, jar, odex, dex, so, apk, apks
+/^http://.+(/.+)?/.+\.(?:(?:[eE][lL][fF])|(?:[jJ][aA][rR])|(?:[oO]?[dD][eE][xX])|(?:[sS][oO])|(?:[aA][pP][kK][sS]?))([/#?].*)?$/$empty
