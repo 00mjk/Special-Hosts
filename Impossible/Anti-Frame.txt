@@ -1,0 +1,11 @@
+! Title: Anti-Frame List
+! License: MIT License (https://choosealicense.com/licenses/mit/)
+! Homepage: https://github.com/InnoScorpio/Special-Hosts
+! Issues: https://github.com/InnoScorpio/Special-Hosts
+! Expires: 8 hours
+! Version: 1 
+! Last Modified: 
+! Description: Block all files excluding those whitelisted. Meant for uBlock Origin.
+! Use them at your own risk.
+! ====================================================================================================================
+*$frame,important

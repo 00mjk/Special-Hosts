@@ -1,0 +1,10 @@
+! Title: Anti-Media List
+! License: MIT License (https://choosealicense.com/licenses/mit/)
+! Homepage: https://github.com/InnoScorpio/Special-Hosts
+! Issues: https://github.com/InnoScorpio/Special-Hosts
+! Expires: 8 hours
+! Version: 1 
+! Last Modified: 
+! Description: Block all media excluding whitelisted rules
+!========================================================================================================================
+*$media,important
