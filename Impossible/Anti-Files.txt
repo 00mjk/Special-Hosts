@@ -4,15 +4,15 @@
 ! Homepage: https://github.com/InnoScorpio/Special-Hosts
 ! Issues: https://github.com/InnoScorpio/Special-Hosts
 ! Expires: 8 hours
-! Version: 2 
-! Last Modified: 
+! Version: 3 
+! Last Modified: September 2, 2020
 ! Description: Block all files excluding those whitelisted.
 ! Use them at your own risk.
 ! ====================================================================================================================
 !#if ext_ublock
-/^https?://.+(/.+)?/.+\.([a-zA-Z0-9-_]+)([/#?].*)?$/$all,important
+/^https?://.+(/.+)?/.+\.([a-zA-Z0-9-_]+)([/#?].*)?$/$all
 !#endif
 
 !#if adguard
-/^https?://.+(/.+)?/.+\.([a-zA-Z0-9-_]+)([/#?].*)?$/$empty,important
+/^https?://.+(/.+)?/.+\.([a-zA-Z0-9-_]+)([/#?].*)?$/$empty
 !#endif
