@@ -1,5 +1,5 @@
 ! Title: Anti Third Party HTTP (Cybo1927 version)
-! License: MIT License (https://choosealicense.com/licenses/mit/)
+! License: The Unlicense (https://choosealicense.com/licenses/unlicense/)
 ! Homepage: https://github.com/InnoScorpio/Special-Hosts
 ! Issues: https://github.com/InnoScorpio/Special-Hosts
 ! Expires: 8 days

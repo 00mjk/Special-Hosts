@@ -1,5 +1,5 @@
 ! Title: Adguard Adblocker Extension Bypass Mitigation List
-! License: MIT License (https://choosealicense.com/licenses/mit/)
+! License: The Unlicense (https://choosealicense.com/licenses/unlicense/)
 ! Homepage: https://github.com/InnoScorpio/Special-Hosts
 ! Issues: https://github.com/InnoScorpio/Special-Hosts
 ! Expires: 5 days

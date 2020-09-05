@@ -1,5 +1,6 @@
+[uBlock Origin]
 ! Title: uBlock Origin Attribute Tracking and Bypass Mitigation List
-! License: MIT License (https://choosealicense.com/licenses/mit/)
+! License: The Unlicense (https://choosealicense.com/licenses/unlicense/)
 ! Homepage: https://github.com/InnoScorpio/Special-Hosts
 ! Issues: https://github.com/InnoScorpio/Special-Hosts
 ! Expires: 10 days

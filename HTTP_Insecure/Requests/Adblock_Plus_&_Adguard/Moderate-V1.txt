@@ -1,6 +1,6 @@
 [AdBlockPlus 3.5]
 ! Title: HTTP Insecure Requests - Moderate-Variant 1 for Adguard Adblocker Extension and Adblock Plus
-! License: https://github.com/InnoScorpio/Special-Hosts/blob/master/LICENSE
+! License: The Unlicense (https://choosealicense.com/licenses/unlicense/)
 ! Homepage: https://github.com/InnoScorpio/Special-Hosts
 ! Issues: https://github.com/InnoScorpio/Special-Hosts
 ! Expires: 8 hours

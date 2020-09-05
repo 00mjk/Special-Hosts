@@ -1,6 +1,6 @@
 [AdBlockPlus 3.5]
 ! Title: HTTP Insecure Requests - Light
-! License: MIT License (https://choosealicense.com/licenses/mit/)
+! License: The Unlicense (https://choosealicense.com/licenses/unlicense/)
 ! Homepage: https://github.com/InnoScorpio/Special-Hosts
 ! Issues: https://github.com/InnoScorpio/Special-Hosts
 ! Expires: 8 hours
