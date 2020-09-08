@@ -3,8 +3,8 @@
 ! License: The Unlicense (https://choosealicense.com/licenses/unlicense/)
 ! Homepage: https://github.com/InnoScorpio/Special-Hosts
 ! Issues: https://github.com/InnoScorpio/Special-Hosts
-! Version: 4
-! Last Modified: August 14, 2020
+! Version: 5
+! Last Modified: September 8, 2020
 ! Related: gwarser (https://raw.githubusercontent.com/gwarser/filter-lists/master/lan-block.txt), https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.2.3-uMatrix
 ! Description: Inadvisable. List of private IP addresses that should not be accessible via third-party from websites or browser extensions. 
 ! Use them at your own risk. This list can cause unintended consequences.
@@ -37,7 +37,7 @@
 * 172.31 * block
 * 192.168 * block
 ! === Localhost Ranges =======
-! Websites like leoaffairs.com use localhost to bypass your adblocker. 127.0.0.1/32, ::1/128 IP ranges. 
+! Websites like leoaffairs.com use localhost to bypass your adblocker. 127.0.0.0/8, ::1/128 IP ranges. 
 * [::1] * block
 * 127.0.0.1 * block
 * localhost * block
@@ -90,3 +90,36 @@ routerlogin.com routerlogin.com * allow
 routerlogin.net routerlogin.net * allow
 samsung.router samsung.router * allow
 speedport.ip speedport.ip * allow
+! === Behind-the-Scene Exclusions ===
+! Allow browser extensions and browsers (i.e. Firefox, CSS Exfil Protection, and NoScript) to access traffic on LAN.
+behind-the-scene [::] * allow
+behind-the-scene [::1] * allow
+behind-the-scene 0.0.0.0 * allow
+behind-the-scene 10 * allow
+behind-the-scene 127.0.0.1 * allow
+behind-the-scene 169.254 * allow
+behind-the-scene 172.16 * allow
+behind-the-scene 172.17 * allow
+behind-the-scene 172.18 * allow
+behind-the-scene 172.19 * allow
+behind-the-scene 172.18 * allow
+behind-the-scene 172.2* * allow
+behind-the-scene 172.30 * allow
+behind-the-scene 172.31 * allow
+behind-the-scene 192.168 * allow
+behind-the-scene 255.255.255.255 * allow
+behind-the-scene localhost * allow
+behind-the-scene airbox.home * allow
+behind-the-scene arcor.easybox * allow
+behind-the-scene congstar.box * allow
+behind-the-scene connect.box * allow
+behind-the-scene easy.box * allow
+behind-the-scene fritz.box * allow
+behind-the-scene fritz.nas * allow
+behind-the-scene giga.cube * allow
+behind-the-scene hi.link * allow
+behind-the-scene router.asus.com * allow
+behind-the-scene routerlogin.com * allow
+behind-the-scene routerlogin.net * allow
+behind-the-scene samsung.router * allow
+behind-the-scene speedport.ip * allow
