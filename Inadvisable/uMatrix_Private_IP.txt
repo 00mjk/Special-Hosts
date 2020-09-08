@@ -3,7 +3,7 @@
 ! License: The Unlicense (https://choosealicense.com/licenses/unlicense/)
 ! Homepage: https://github.com/InnoScorpio/Special-Hosts
 ! Issues: https://github.com/InnoScorpio/Special-Hosts
-! Version: 5
+! Version: 5.1
 ! Last Modified: September 8, 2020
 ! Related: gwarser (https://raw.githubusercontent.com/gwarser/filter-lists/master/lan-block.txt), https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.2.3-uMatrix
 ! Description: Inadvisable. List of private IP addresses that should not be accessible via third-party from websites or browser extensions. 
@@ -37,7 +37,7 @@
 * 172.31 * block
 * 192.168 * block
 ! === Localhost Ranges =======
-! Websites like leoaffairs.com use localhost to bypass your adblocker. 127.0.0.0/8, ::1/128 IP ranges. 
+! Websites like leoaffairs.com use localhost to bypass your adblocker. 127.0.0.1/32, ::1/128 IP ranges. 
 * [::1] * block
 * 127.0.0.1 * block
 * localhost * block
