@@ -1,3 +1,5 @@
+## *Note: This project is still experimental but some lists will not work fully as intended.*
+
 # Special-Hosts
 Adblock filters and blocklists I have created.
 
