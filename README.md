@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 ## *Note: This repository is still experimental so some lists will not work properly as intended.*
-=======
-## *Note: This project is still experimental so some lists will not work properly or fully as intended.*
->>>>>>> 002cc7c85bf8c88e1caa99b3af5d22b5f9b984a2
+
 
 # Special-Hosts
 Adblock filters and blocklists I have created.
