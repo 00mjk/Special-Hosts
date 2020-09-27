@@ -14,7 +14,7 @@ Adblock filters and blocklists I have created.
 
 * [`/HTTP Insecure/`](https://github.com/InnoScorpio/Special-Hosts/tree/master/HTTP_Insecure) - List of filters that help increase security when visiting HTTP & HTTP websites.
 
-* [`/Impossible/`](https://github.com/InnoScorpio/Special-Hosts/tree/master/Impossible) - List of filters containing whitelist rules for modifiers.
+* [`/Impossible/`](https://github.com/InnoScorpio/Special-Hosts/tree/master/Impossible) - List of filters containing whitelist rules for modifiers or blacklisting rules.
 
 * [`/Inadvisable/`](https://github.com/InnoScorpio/Special-Hosts/tree/master/Inadvisable) - Lists of filters to that are useful but found to be problematic. 
 
